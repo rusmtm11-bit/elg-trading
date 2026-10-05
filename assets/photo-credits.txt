@@ -1,0 +1,14 @@
+Photos in assets/img are from Pexels (free to use under the Pexels licence):
+hero-camshaft.jpg - https://www.pexels.com/photo/29226618/
+mechanical.jpg - https://www.pexels.com/photo/28752152/
+auto-parts.jpg - https://www.pexels.com/photo/34277926/
+tyres.jpg - https://www.pexels.com/photo/3806252/
+warehouse.jpg - https://www.pexels.com/photo/14554082/
+port.jpg - https://www.pexels.com/photo/12999282/
+fleet.jpg - https://www.pexels.com/photo/18468416/
+gears.jpg - https://www.pexels.com/photo/7568427/
+belts.jpg - https://www.pexels.com/photo/4238222/
+hoses.jpg - https://www.pexels.com/photo/32979601/
+hydraulic.jpg - https://www.pexels.com/photo/36532643/
+
+Logo supplied by the client.
