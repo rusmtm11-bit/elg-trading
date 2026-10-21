@@ -2,6 +2,19 @@
   var root = document.documentElement;
   root.classList.remove('no-js');
 
+  // hide tracking parameters (utm_*, e.g. ?utm_source=chatgpt.com) from the address bar
+  try {
+    var params = new URLSearchParams(window.location.search);
+    var changed = false;
+    Array.from(params.keys()).forEach(function (k) {
+      if (/^utm_/i.test(k)) { params.delete(k); changed = true; }
+    });
+    if (changed && window.history && history.replaceState) {
+      var qs = params.toString();
+      history.replaceState(history.state, '', window.location.pathname + (qs ? '?' + qs : '') + window.location.hash);
+    }
+  } catch (e) { /* old browser: leave URL as is */ }
+
   // mobile menu
   var toggle = document.querySelector('.menu-toggle');
   if (toggle) {
